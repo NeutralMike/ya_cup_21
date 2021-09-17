@@ -25,5 +25,4 @@ function findLatestWeight (weights) {
 }
 
 
-module.exports = findLatestWeight; 
-console.log(findLatestWeight([2,7,4,1,8,1]))
+module.exports = findLatestWeight;
