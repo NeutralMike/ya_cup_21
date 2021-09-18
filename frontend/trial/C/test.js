@@ -8,11 +8,11 @@ renderBarcode(
   },
   document.getElementById('barcode1')
 )
-// renderBarcode(
-//   {
-//     id: "Teapot1234",
-//     code: 0,
-//     message: "No coffee this is a teapot"
-//   },
-//   document.getElementById('barcode2')
-// )
+renderBarcode(
+  {
+    id: "Teapot1234",
+    code: 0,
+    message: "No coffee this is a teapot"
+  },
+  document.getElementById('barcode2')
+)

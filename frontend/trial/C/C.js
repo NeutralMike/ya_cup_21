@@ -1,15 +1,9 @@
-const colors = {
-  'white': new Uint8ClampedArray([255, 255, 255, 255]),
-  'black': new Uint8ClampedArray([0, 0, 0, 255])
-}
-
 const height = 96
 const width = 300
 const margLeft = 22
 const margRight = 22
 const scale = 8
 const workSpaceWidth = Math.floor((width - margLeft - margRight)/scale)
-const workSpaceHeight = height / scale
 
 
 function drawSides(context){
